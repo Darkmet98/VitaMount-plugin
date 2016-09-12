@@ -68,7 +68,7 @@ int blit_thread(SceSize args, void *argp) {
 				vshIoUmount(0x400, 0, 0, 0); // Dismount only vd0 partition
 				vshIoUmount(0x500, 0, 0, 0); // Dismount only tm0 partition
 				vshIoUmount(0x700, 0, 0, 0); // Dismount only ud0 partition
-				vshIoUmount(0x800, 0, 0, 0); // Dismount only ux0?? partition
+				vshIoUmount(0x800, 0, 0, 0); // Dismount only sa0 partition
 				vshIoUmount(0x900, 0, 0, 0); // Dismount only gro0 partition
 				vshIoUmount(0xC00, 0, 0, 0); // Dismount only pd0 partition
 			
@@ -78,7 +78,7 @@ int blit_thread(SceSize args, void *argp) {
 				_vshIoMount(0x400, 0, 2, buf); // Mount only vd0 partition in RW
 				_vshIoMount(0x500, 0, 2, buf); // Mount only tm0 partition in RW
 				_vshIoMount(0x700, 0, 2, buf); // Mount only ud0 partition in RW
-				_vshIoMount(0x800, 0, 2, buf); // Mount only ux0?? partition in RW
+				_vshIoMount(0x800, 0, 2, buf); // Mount only sa0 partition in RW
 				_vshIoMount(0x900, 0, 2, buf); // Mount only gro0 partition in RW
 				_vshIoMount(0xC00, 0, 2, buf); // Mount only pd0 partition in RW
 			}
