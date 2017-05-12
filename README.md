@@ -1,5 +1,5 @@
 # Vitamount Plugin #
-Copyright (C) 2016, Darkmet98 and Tomtomdu80
+Darkmet98 and Tomtomdu80 - 2016
 
 This code is originaly written for Tomtomdu80
 Forked and adapted by Darkmet98
